@@ -1,4 +1,3 @@
-// Dados para o gráfico de pizza e gráfico de barras
 const dataPizza = {
     labels: ['Clientes', 'Empresários', 'Microempresários', 'Vendedores', 'Comerciantes', 'Gerentes'],
     datasets: [{
