@@ -17,21 +17,21 @@
 
 
   <nav class="navbar bg-dark border-bottom border-secundary border-body">
-    <div class="container-fluid">
-      <button class="btn btn-dark" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasWithBothOptions"
-        aria-controls="offcanvasWithBothOptions">
-        <i class="bi bi-chevron-right"></i>
-      </button>
-      <div class="ms-0">
-        <a class="navbar-brand fs-3 text-white ms-0">Olá, Bem vindo(a)!</a>
+    <div class="container-fluid d-flex justify-content-between">
+      <div class="d-flex align-items-center">
+        <button class="btn btn-dark me-2" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasWithBothOptions"
+          aria-controls="offcanvasWithBothOptions">
+          <i class="bi bi-chevron-right"></i>
+        </button>
+        <a class="navbar-brand fs-5 text-white">Olá, Bem-vindo(a)!</a>
       </div>
-      <form class="d-flex" role="search">
+      <form class="d-flex ms-auto" role="search">
         <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
         <button class="btn btn-outline-danger" type="submit"><i class="bi bi-search"></i></button>
       </form>
     </div>
   </nav>
-
+  
 
   <div class="offcanvas offcanvas-start bg-dark" data-bs-scroll="true" tabindex="-1" id="offcanvasWithBothOptions"
     aria-labelledby="offcanvasWithBothOptionsLabel">
@@ -85,6 +85,7 @@
   </div>
 
   <main class="m-4 justify-content-end">
+    <h2 class="text-white text-center mb-3 mt-3">Dashboard</h2>
     <div class="container text-center">
       <div class="row g-2">
         <div class="col-4">
