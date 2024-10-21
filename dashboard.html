@@ -168,31 +168,70 @@
         <thead>
           <tr>
             <th scope="col">#</th>
-            <th scope="col">First</th>
-            <th scope="col">Last</th>
-            <th scope="col">Handle</th>
+            <th scope="col">Visitas</th>
+            <th scope="col">Vendas</th>
+            <th scope="col">Empresas</th>
           </tr>
         </thead>
         <tbody>
           <tr>
             <th scope="row">1</th>
-            <td>Mark</td>
-            <td>Otto</td>
+            <td>Empresários</td>
+            <td>Março</td>
             <td>@mdo</td>
           </tr>
           <tr>
             <th scope="row">2</th>
-            <td>Jacob</td>
-            <td>Thornton</td>
-            <td>@fat</td>
+            <td>Clientes</td>
+            <td>Fevereiro</td>
+            <td>@Cnd</td> 
           </tr>
           <tr>
             <th scope="row">3</th>
-            <td colspan="2">Larry the Bird</td>
-            <td>@twitter</td>
+            <td>Vendedores</td>
+            <td>Janeiro</td>
+            <td>@Lez</td>
           </tr>
         </tbody>
       </table>
+
+      <div class="accordion" id="accordionExample">
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button class="accordion-button bg-dark text-white" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+              feedback #1
+            </button>
+          </h2>
+          <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+            <div class="accordion-body bg-dark text-white">
+              <strong>Vendas cresceram 15% em relação ao mês anterior. Excelente trabalho!</strong>
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item bg-dark text-white">
+          <h2 class="accordion-header">
+            <button class="accordion-button collapsed bg-dark text-white" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+              feedback #2
+            </button>
+          </h2>
+          <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+            <div class="accordion-body bg-dark text-white">
+              <strong>As vendas caíram 5% em comparação ao mês passado. Aumentar o foco em campanhas de marketing.</strong> 
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button class="accordion-button collapsed bg-dark text-white" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+              feedback #3
+            </button>
+          </h2>
+          <div id="collapseThree" class="accordion-collapse collapse bg-dark text-white" data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+              <strong>Meta de vendas atingida em 90%. Falta pouco para alcançar o objetivo.
+          </div>
+        </div>
+      </div>
     </div>
   </main>
 
